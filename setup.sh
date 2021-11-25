@@ -12,8 +12,6 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 mkdir /var/lib/premium-script;
-echo "Enter the VPS Subdomain Hostname, if not available, please click Enter"
-read -p "Hostname: " host
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 #install ssh ovpn
 wget https://raw.githubusercontent.com/onedateme/script/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
