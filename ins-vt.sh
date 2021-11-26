@@ -493,37 +493,37 @@ systemctl enable trojan
 systemctl restart v2ray
 systemctl enable v2ray
 cd /usr/bin
-wget -O add-ws "https://raw.githubusercontent.com/onedateme/script/main/add-ws.sh"
-wget -O add-wstls "https://raw.githubusercontent.com/onedateme/script/main/add-wstls.sh"
-wget -O add-vless "https://raw.githubusercontent.com/onedateme/script/main/add-vless.sh"
-wget -O add-tr "https://raw.githubusercontent.com/onedateme/script/main/add-tr.sh"
-wget -O del-ws "https://raw.githubusercontent.com/onedateme/script/main/del-ws.sh"
-wget -O del-non "https://raw.githubusercontent.com/onedateme/script/main/del-non.sh"
-wget -O del-vless "https://raw.githubusercontent.com/onedateme/script/main/del-vless.sh"
-wget -O del-tr "https://raw.githubusercontent.com/onedateme/script/main/del-tr.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/onedateme/script/main/cek-ws.sh"
-wget -O cek-vless "https://raw.githubusercontent.com/onedateme/script/main/cek-vless.sh"
-wget -O cek-tr "https://raw.githubusercontent.com/onedateme/script/main/cek-tr.sh"
-wget -O renew-ws "https://raw.githubusercontent.com/onedateme/script/main/renew-ws.sh"
-wget -O renew-non "https://raw.githubusercontent.com/onedateme/script/main/renew-non.sh"
-wget -O renew-vless "https://raw.githubusercontent.com/onedateme/script/main/renew-vless.sh"
-wget -O renew-tr "https://raw.githubusercontent.com/onedateme/script/main/renew-tr.sh"
+wget -O add-ws "https://raw.githubusercontent.com/onedateme/script/main/addws.sh"
+wget -O add-wstls "https://raw.githubusercontent.com/onedateme/script/main/addwstls.sh"
+wget -O add-vless "https://raw.githubusercontent.com/onedateme/script/main/addvless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/onedateme/script/main/addtr.sh"
+wget -O del-ws "https://raw.githubusercontent.com/onedateme/script/main/delws.sh"
+wget -O del-non "https://raw.githubusercontent.com/onedateme/script/main/delnon.sh"
+wget -O del-vless "https://raw.githubusercontent.com/onedateme/script/main/delvless.sh"
+wget -O del-tr "https://raw.githubusercontent.com/onedateme/script/main/deltr.sh"
+wget -O cek-ws "https://raw.githubusercontent.com/onedateme/script/main/cekws.sh"
+wget -O cek-vless "https://raw.githubusercontent.com/onedateme/script/main/cekvless.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/onedateme/script/main/cektr.sh"
+wget -O renew-ws "https://raw.githubusercontent.com/onedateme/script/main/renewws.sh"
+wget -O renew-non "https://raw.githubusercontent.com/onedateme/script/main/renewnon.sh"
+wget -O renew-vless "https://raw.githubusercontent.com/onedateme/script/main/renewvless.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/onedateme/script/main/renewtr.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/onedateme/script/main/cert.sh"
-chmod +x add-ws
-chmod +x add-wstls
-chmod +x add-vless
-chmod +x add-tr
-chmod +x del-ws
-chmod +x del-non
-chmod +x del-vless
-chmod +x del-tr
-chmod +x cek-ws
-chmod +x cek-vless
-chmod +x cek-tr
-chmod +x renew-ws
-chmod +x renew-non
-cmod +x renew-vless
-chmod +x renew-tr
+chmod +x addws
+chmod +x addwstls
+chmod +x addvless
+chmod +x addtr
+chmod +x delws
+chmod +x delnon
+chmod +x delvless
+chmod +x deltr
+chmod +x cekws
+chmod +x cekvless
+chmod +x cektr
+chmod +x renewws
+chmod +x renewnon
+cmod +x renewvless
+chmod +x renewtr
 chmod +x certv2ray
 cd
 rm -f ins-vt.sh
